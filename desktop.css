@@ -1,0 +1,103 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*navber designs strats*/
+.navber-logo{
+    text-align: left;
+}
+
+.navber-heading h1{
+    text-align: right;
+}
+.navber-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navber-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    
+}
+/*navber design end*/
+/*profile designs starts here*/
+.profile .top-hat-icon{
+    
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    height: 100px;
+    width: 100px;
+    transition: width 2s, transform 2s;
+}
+.profile .top-hat-icon:hover{
+    width: 140px;
+    transform: rotate(360deg);
+}
+.profile .bottom-hat-icon{
+    
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    transition: width 2s, transform 2s;
+}
+.profile .bottom-hat-icon:hover{
+    width: 140px;
+    transform: rotate(360deg);
+}
+/*profile designs ends here*/
+
+.aboutme-image{
+    margin-top: 80px;
+    
+}
+
+.aboutme-image img{
+    height: 270px;
+    width: 250px;
+   
+    
+}
+.aboutme-desc p {
+    text-align: left;
+
+
+}
+/*achievement-contact starts from here */
+.achievement{
+    padding-right: 50px;
+}
+.contact button{
+
+    width: 75 px;
+    
+}
+.media-button{
+    position: absolute;
+    left: 50%;
+    margin-top: 200px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*achievement-contact ends here */
+/*footer starts from here*/
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+/*footer ends here*/

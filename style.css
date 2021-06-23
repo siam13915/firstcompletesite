@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Satisfy', cursive;
+}
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify ;
+}
+.dotted-hr{
+    border: dotted 6px whitesmoke;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/*for mobile */
+[class*="col-"]{
+    width: 100%;
+}
+/* navber designing stars*/
+.navber{
+   background-color: aqua;
+   padding: 1% 7%; 
+   text-align: center;
+}
+.navber::after{
+    clear: both;
+    display: table;
+    content: '';
+
+}
+.navber h1{
+    color: cornsilk;
+    margin: 0;
+    padding: 10px;
+}
+.navber-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.navber-menu a{
+    background-color: cyan;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+.navber-menu a:hover{
+    background-color: gray;
+}
+/* navber designing ends*/
+/*profile design starts from here*/
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+    
+}
+.profile .top-hat-icon{
+    
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    height: 100px;
+    width: 100px;
+    transition: transform 2s;
+}
+.profile .top-hat-icon:hover{
+    transform: rotate(360deg);
+}
+
+.profile-desc h1{
+    font-family: 'Raleway', sans-serif;
+}
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+.profile .bottom-hat-icon{
+    
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    height: 100px;
+    width: 100px;
+    transition: transform 2s;
+}
+.profile .bottom-hat-icon:hover{
+    transform: rotate(360deg);
+}
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*profile design ends from here*/
+
+/*about me design starts here*/
+
+.about-me{
+    background-color: indigo;
+    padding: 1% 7%;
+    color: ivory;
+    text-align: center;
+    
+    
+}
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+}
+.about-me p{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.about-me a{
+    font-size: 1.2rem;
+    
+}
+
+/*about me design ends here*/
+
+/*achievement-contact starts from here */
+.achievement-contact{
+    padding: 1% 7%;
+    background-color: #39a4ac;
+    color: white;
+}
+.contact{
+    padding: 1% 7%;
+    text-align: center;
+}
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact button{
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 204, 255, 0.589);
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+}
+.contact-links{
+    text-align: center;
+}
+.achievement-contact::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.media-button .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+.btn:hover{
+    background-color: gray;
+
+}
+.contact-links{
+    position: relative;
+}
+
+
+/*achievement-contact ends here */
+/*footer starts from here*/
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.footer-menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+.footer-menu a:hover{
+    color: gray;
+
+}
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+/*footer ends here*/
